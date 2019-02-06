@@ -10,7 +10,7 @@ app.use(cors())
 
 app.post("/register", (req, res) => {
  res.send({
-    message: `hey dush your email is: ${req.body.email}`
+    message: `hey dush your email is: ${req.body.email} and pass is: ${req.body.password}`
   })
 })
 
